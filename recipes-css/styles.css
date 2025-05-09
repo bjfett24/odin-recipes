@@ -1,0 +1,97 @@
+* {
+    background-color: #fef3ec;
+}
+
+.title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+
+#home {
+    background-color: green;
+    padding: 20px;
+    color: white;
+}
+
+#parm {
+    background-color: hsl(0, 80%, 50%);
+    color: white;
+    padding: 10px;
+
+}
+
+#salad {
+    background-color: green;
+    color: #fef3ec;
+    padding: 10px;
+
+}
+
+#tiramisu {
+    background-color: #7c523c;
+    color: white;
+    padding: 10px;
+
+}
+
+button {
+    display: block;
+    padding: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 15px;
+    font-size: 25px
+
+}
+
+.buttons {
+    float: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 600px;
+    height: auto;
+}
+
+.heading {
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+    background-color: #492000;
+    color: #fef3ec;
+}
+
+
+.parm a, .parm {
+    background-color: green;
+    color: white;
+}
+
+.salad a, .salad {
+    background-color: white;
+    color: black;
+}
+
+.tiramisu a, .tiramisu {
+    background-color: red;
+    color: white;
+}
+
+.home-button {
+    display: flex;
+    justify-content: center;
+}
+
+.home-button button a, .home-button button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #492000;
+    color: white
+}
